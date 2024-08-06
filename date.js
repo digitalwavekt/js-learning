@@ -40,7 +40,7 @@ console.log(newDate.getTime())
 console.log(newDate.getDay())
 console.log(newDate.getMonth()+1)*/
 
- console.log(newDate.toLocalstring('default',{
+ console.log(new Date.toLocalstring('default',{
     weekday:'long',
     year:'numeric',
     month:'long',
